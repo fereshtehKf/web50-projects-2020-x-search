@@ -1,0 +1,132 @@
+
+body {
+  margin: 0px;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  font-size: 16px;
+  width: 300px;
+  padding: 13px 0;
+}
+input:focus {
+  outline: none;
+}
+input[type=text] {
+  color: #494747;
+  margin: 0 0 0 5px;
+}
+input[type=submit] {
+  font-size: 14px;
+  width: 185px;
+  border-width: 0px;
+  border-radius: 15px;
+  margin: 20px;
+}
+input[type=submit]:hover {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9);
+}
+
+
+.header, .headerLinks, .head-adv-lgo, .head-adv {
+  display: flex;
+  align-items: center;
+}
+.header a, .headerLinks a, .head-adv-lgo a, .head-adv a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+.head-adv {
+  background-color: #eeeded;
+  height: 50px;
+}
+.head-adv-lgo {
+  padding: 10px;
+}
+.head-adv-lgo img {
+  height: 30px;
+}
+.headerLinks {
+  margin-left: auto;
+  text-decoration: underline;
+}
+
+.appbar {
+  margin: 30px 10px;
+}
+.appbar label {
+  color: #da2c20;
+  font-size: 20px;
+  margin: 50px 30px;
+}
+
+.sep-line {
+  border-bottom: solid 1px #d4d3d3;
+}
+
+.searchCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+.searchCont .searchField {
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  border: 1px solid #bdbdbd;
+  align-items: center;
+  margin: 10px;
+  padding-left: 15px;
+}
+.searchCont .searchField input {
+  border: none;
+  border-radius: 25px;
+}
+.searchCont .lgoSubTxt {
+  color: #4187f8;
+  position: relative;
+  left: 110px;
+  top: -18px;
+}
+
+.adv-search-cont {
+  margin: 50px 40px;
+}
+.adv-search-cont label {
+  display: inline-block;
+  width: 16%;
+  font-size: 20px;
+}
+.adv-search-cont .whspac {
+  display: inline-block;
+  width: 50%;
+}
+.adv-search-cont .frm-gp {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+.adv-search-cont .frm-gp label {
+  width: 16%;
+  font-size: 14px;
+}
+.adv-search-cont .frm-gp input[type=text] {
+  width: 49%;
+  padding: 2px 0;
+}
+.adv-search-cont .frm-gp .clarification {
+  font-size: 11px;
+  width: 30%;
+  margin-left: 1%;
+}
+.adv-search-cont .frm-gp .clarification .monospace {
+  font-family: monospace;
+}
+.adv-search-cont .frm-gp .rigAlign {
+  width: 50%;
+}

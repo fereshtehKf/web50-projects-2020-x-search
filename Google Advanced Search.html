@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set viewport with -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Advanced Search</title>
+</head>
+<body>
+    <!-- HEADER START -->
+    <div class="head-adv">
+        <div class="head-adv-lgo">
+            <a href="index.html">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+            </a>
+        </div>
+        <div class="headerLinks">
+            <a href="index.html">Google Search</a>
+            <a href="Google Image Search.html">Google Images</a>
+        </div>
+    </div>
+    <div class="appbar">
+        <label>Advanced Search</label>
+    </div>
+    <div class="sep-line"></div>
+    
+    <div class="adv-search-cont">
+        <form action="https://www.google.com/search" method="get">
+            <label>Find pages with...</label>
+            <div class="whspac"></div>
+            <label>To do this in the search box.</label>
+            <div class="frm-gp">
+                <label>All these words:</label>
+                <input type="text" name="as_q">
+                <div class="clarification">
+                    Type the important words: <span class="monospace">tri-colour rat terrier</span>
+                </div>
+            </div>
+            <div class="frm-gp">
+                <label>This exact word or phrase:</label>
+                <input type="text" name="as_epq">
+                <div class="clarification">
+                    Put exact words in quotes: <span class="monospace">"rat terrier"</span>
+</div>
+            </div>
+            <div class="frm-gp">
+                <label>Any of these words: </label>
+                <input type="text" name="as_oq">
+                <div class="clarification">
+                    Type OR between all the words you want: <span class="monospace">miniature OR standard</span>
+</div>
+            </div>
+            <div class="frm-gp">
+                <label>None of these words:</label>
+                <input type="text" name="as_eq">
+                <div class="clarification">
+                    Put a minus sign just before words that you don't want: <span class="monospace">-rodent, -"Jack Russell"</span>
+</div>
+            </div>
+            <div class="frm-gp">
+                <label></label>
+                <div class="rigAlign">
+                    <input type="submit" class="InBluBtn" value="Google Advanced Search" 
+                    style="background-color: dodgerblue;
+                    color: white;
+                    font-size: smaller;
+                    max-width: 200px;
+                    border-radius: 0px;
+                    border: 1px solid #156bbd;
+                    float: right;
+                    padding: 10px 2px;
+                    margin: 0;">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
